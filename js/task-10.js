@@ -7,10 +7,8 @@ const input = document.querySelector("input");
 let inputValue = 0;
 input.addEventListener("input", (e) => {
   inputValue = Number(e.target.value);
- console.log(inputValue)
 });
 
-console.log(inputValue);
 
 function createBoxes(amount) {
   let allBoxes = document.querySelectorAll(".box").length + 1;
